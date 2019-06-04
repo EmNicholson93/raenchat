@@ -6,7 +6,6 @@ class App extends Component {
     render() {
         const dom = this.renderDOM();
 
-        // get the header's DOM
         const header = new Header();
         const headerDOM = header.render();
 
